@@ -14,6 +14,7 @@ function App() {
      <Component2 />
      <Component3 />
      <Component4 />
+     <Component5 />
     </div>
   );
 }
