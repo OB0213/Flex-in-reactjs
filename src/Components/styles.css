@@ -1,0 +1,42 @@
+.textdata{
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 18px;
+    padding-left: 18px;
+   
+}
+
+.myimage{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+.titledata{
+    text-align: center;
+    color: brown;
+    text-shadow: 1.2px 1.2px 1.2px black;
+    font-size: 200%;
+}
+
+.mymaindata{
+    flex:0 0 50%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:900px) {
+    .mymaindata{
+        flex:0 0 100%;
+        margin-bottom: 20px;
+    }
+
+    .textdata{
+        text-align: justify;
+        font-size: 16px;
+        padding-right: 18px;
+        padding-left: 18px;
+       
+    }
+}

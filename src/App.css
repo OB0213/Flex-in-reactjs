@@ -1,5 +1,19 @@
 .App {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  background-color: #61dafb;
+  flex-wrap: wrap;
+}
+
+.title{
+  flex: 0 0 100%;
   text-align: center;
+  font-size: 300%;
+  color: blue;
+  text-shadow: 1.5px 1.5px 1.5px black;
 }
 
 .App-logo {
